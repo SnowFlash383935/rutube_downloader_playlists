@@ -9,6 +9,7 @@ class RutubeRealPlaylist:
         except:
             raise ValueError(f"Invalid URL: {url}!")
         page = 0
+        self.info = requests.get(f"https://rutube.ru/api/playlist/custom/{id}/?client=wdp").json()
         result = requests.get(f"https://rutube.ru/api/playlist/custom/{id}/videos/?client=wdp&page={page}").json()
         self.all_raw = result["results"]
         while result["has_next"]:
@@ -19,3 +20,4 @@ class RutubeRealPlaylist:
         return len(self.all_raw)
     def __getitem__(self, itemnum):
         return Rutube(self.all_raw[itemnum]["video_url"])
+
