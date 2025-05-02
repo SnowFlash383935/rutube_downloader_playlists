@@ -1,5 +1,5 @@
-from rutube import Rutube
-from playlists import RutubeRealPlaylist as RutubeVideoPlaylist
+from .rutube import Rutube
+from .playlists import RutubeRealPlaylist as RutubeVideoPlaylist
 
 
 __all__ = (
