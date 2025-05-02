@@ -3,7 +3,7 @@
 ## Get it
 
 ```python
-pip install rutube-downloader
+pip install git+https://github.com/SnowFlash383935/rutube_downloader_playlists
 ```
 
 ## Try it
