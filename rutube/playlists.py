@@ -8,7 +8,6 @@ class RutubeRealPlaylist:
             id = int(parse.urlparse(url).path[1:-1].split("/")[1])
         except:
             raise ValueError(f"Invalid URL: {url}!")
-        print(id)
         page = 0
         result = requests.get(f"https://rutube.ru/api/playlist/custom/{id}/videos/?client=wdp&page={page}").json()
         self.all_raw = result["results"]
