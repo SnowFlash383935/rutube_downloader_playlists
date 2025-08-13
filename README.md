@@ -81,3 +81,17 @@ rt = Rutube('https://rutube.ru/video/5c5f0ae2d9744d11a05b76bd327cbb51/')
 
 rt.get_best().download(workers=8)
 ```
+
+### Playlists
+
+```python
+from rutube import Playlist
+
+pl = Playlist("https://rutube.ru/plst/268072/")
+
+# Get lenght of playlist
+print(len(pl))
+
+# Get video from playlist
+print(pl[0].available_resolutions)
+```
