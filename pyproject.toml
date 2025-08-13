@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "rutube-downloader"
 version = "0.0.8.8"
 authors = [
-    { email = "arch1_cs@mail.ru" },
+    { email = "snowflash383935@mail.ru" },
 ]
 description = "This is the simplest module for download videos from Rutube"
 readme = "README.md"
@@ -25,5 +25,5 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/Valentin-Butorin/rutube_downloader"
-Repository = "https://github.com/Valentin-Butorin/rutube_downloader.git"
+Homepage = "https://github.com/SnowFlash383935/rutube_downloader_playlists"
+Repository = "https://github.com/SnowFlash383935/rutube_downloader_playlists.git"
