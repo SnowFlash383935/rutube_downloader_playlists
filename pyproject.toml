@@ -13,7 +13,7 @@ readme = "README.md"
 requires-python = ">=3.7"
 dependencies = [
     "requests>=2.25",
-    "alive-progress">=3.1.4,
+    "alive-progress>=3.1.4",
     "m3u8>=3.5.0; python_version>='3.12'",
     "m3u8-old-python @ git+https://github.com/SnowFlash383935/m3u8.git ; python_version<'3.12'"
 ]
