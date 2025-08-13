@@ -1,8 +1,8 @@
 from .rutube import Rutube
-from .playlists import RutubeRealPlaylist as RutubeVideoPlaylist
+from .playlists import Playlist
 
 
 __all__ = (
     'Rutube',
-    'RutubeVideoPlaylist'
+    'Playlist'
 )
