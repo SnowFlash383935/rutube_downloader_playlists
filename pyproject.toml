@@ -5,6 +5,9 @@ build-backend = "hatchling.build"
 [tool.hatch.build.targets.wheel]
 packages = ["rutube"]
 
+[tool.hatch.metadata]
+allow-direct-references = true
+
 [project]
 name = "rutube-downloader"
 version = "0.0.8.8"
