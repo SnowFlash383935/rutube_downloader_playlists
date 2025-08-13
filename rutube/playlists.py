@@ -1,5 +1,5 @@
 import requests
-from rutube import Rutube
+from .rutube import Rutube
 from urllib import parse
 
 class Playlist:
