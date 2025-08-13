@@ -2,7 +2,7 @@ import requests
 from rutube import Rutube
 from urllib import parse
 
-class RutubeRealPlaylist:
+class Playlist:
     def __init__(self, url):
         try:
             id = int(parse.urlparse(url).path[1:-1].split("/")[1])
